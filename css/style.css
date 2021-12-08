@@ -114,3 +114,28 @@ grid-row-gap: 3rem;
 min-height: auto;
 min-width: auto;
 }
+
+footer{
+border: 1px solid black;
+display: flex;
+}
+
+#fot1{
+background-color: blue;
+justify-content:space-evenly;
+grid-area: ft1;
+}
+
+#fot2{
+background-color: blueviolet;
+flex-direction: column;
+align-items:flex-end;
+grid-area: ft2;
+}
+
+#fot3 {
+ grid-template-areas: 
+ 'ft1 ft1 ft2 ft2'
+ ;
+display: grid;
+}
