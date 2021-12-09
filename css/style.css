@@ -5,7 +5,7 @@ margin: 20px;
 
 
 
-ul {
+#list1 {
 list-style:none;
 display: flex;
 justify-content:none;
@@ -118,24 +118,52 @@ min-width: auto;
 footer{
 border: 1px solid black;
 display: flex;
+justify-content: space-between;
+float:none;
 }
 
 #fot1{
 background-color: blue;
-justify-content:space-evenly;
-grid-area: ft1;
 }
 
 #fot2{
 background-color: blueviolet;
 flex-direction: column;
-align-items:flex-end;
-grid-area: ft2;
+align-items: right;
 }
 
-#fot3 {
- grid-template-areas: 
- 'ft1 ft1 ft2 ft2'
- ;
-display: grid;
+#block1{
+border: black 1px solid;
+padding: 10px 40px 10px 40px;
+font-size: 24px;
+}
+
+#block2{
+    border: black 1px solid;
+    padding: 10px 40px 10px 40px;
+    font-size: 24px;
+}
+
+#block3{
+    border: black 1px solid;
+    padding: 10px 40px 20px 40px;
+    font-size: 24px;
+}
+
+#block4{
+    border: black 1px solid;
+    padding: 10px 40px 10px 40px;
+    font-size: 24px;
+}
+
+#list2{
+list-style: none;
+margin:0%;
+padding: 0%;
+display: block;
+}
+
+#logo2{
+width: 25px;
+height: 25px;
 }
