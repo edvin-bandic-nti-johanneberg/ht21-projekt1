@@ -254,5 +254,47 @@ background-color: black;
 color: white;
 padding-left:20px;
 padding-right: 20px;
+line-height: 15px;
+}
+
+#special{
+display: flex;
+justify-content:space-around;
+text-align: center;
+flex-wrap: wrap;
+}
+
+
+#s1 {
+border: 1px black solid;
+height: 250px;
+width: 250px;
+}
+
+
+#s2{
+ border: 1px black solid;
+ height: 250px;
+ width: 250px;
+}
+
+
+#s3{
+ border: 1px black solid;
+ height: 250px;
+ width: 250px;
+}
+
+
+#s4{
+border: 1px black solid;
+height: 250px;
+width: 250px;
+}
+
+
+#text{
+display: flex;
+justify-content: space-around;
 
 }
