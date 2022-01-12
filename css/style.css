@@ -223,8 +223,6 @@ text-decoration: none;
 }
 
 
-
-
 #jobba {
 height: 300px;
 width: 100%;
@@ -302,3 +300,52 @@ display: flex;
 justify-content: space-around;
 }
 
+
+#pizzor{
+width:100vw ;
+display: grid;
+grid-template-areas: 
+'hd1 hd1 hd1 hd1'
+'p1 p1 p2 p2'
+'p3 p3 p4 p4'
+;
+grid-row-gap: 3em;
+}
+
+
+#p1{
+border: 1px black solid;
+width: 100%;
+height: 60px;
+grid-area:hd1;
+}
+
+#p2{
+border: 1px black solid;
+width: 450px;
+height: 200px;
+grid-area: p1;
+}
+
+#p3{
+border: 1px black solid;   
+width: 450px;
+height: 200px;
+grid-area: p2;
+}
+
+
+#p4{
+border: 1px black solid;
+width: 450px;
+height: 200px;
+grid-area: p3;
+}
+
+
+#p5{
+border: 1px black solid;
+width: 450px;
+height: 200px;
+grid-area: p4;
+}
