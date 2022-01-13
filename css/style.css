@@ -276,6 +276,7 @@ flex-wrap: wrap;
 border: 1px black solid;
 height: 250px;
 width: 250px;
+box-shadow: 7px 7px 13px grey;
 }
 
 
@@ -283,6 +284,7 @@ width: 250px;
  border: 1px black solid;
  height: 250px;
  width: 250px;
+ box-shadow: 7px 7px 13px grey;
 }
 
 
@@ -290,6 +292,7 @@ width: 250px;
  border: 1px black solid;
  height: 250px;
  width: 250px;
+ box-shadow: 7px 7px 13px grey;
 }
 
 
@@ -297,6 +300,7 @@ width: 250px;
 border: 1px black solid;
 height: 250px;
 width: 250px;
+box-shadow: 7px 7px 13px grey;
 }
 
 
@@ -330,26 +334,29 @@ width: 100%;
 height: 60px;
 grid-area:hd1;
 font-size: 3em;
+box-shadow: 7px 7px 13px grey;
 }
 
 #p2{
 display: flex;
 align-items: center;
 justify-content: center;
-border: 1px black solid;
+
 width: 450px;
 height: 200px;
 grid-area: p1;
+box-shadow: 7px 7px 13px grey;
 }
 
 #p3{
 display: flex;
 align-items: center;
 justify-content: center;
-border: 1px black solid;   
+
 width: 450px;
 height: 200px;
 grid-area: p2;
+box-shadow: 7px 7px 13px grey;
 }
 
 
@@ -357,10 +364,11 @@ grid-area: p2;
 display: flex;
 align-items: center;
 justify-content:center;
-border: 1px black solid;
+
 width: 450px;
 height: 200px;
 grid-area: p3;
+box-shadow: 7px 7px 13px grey;
 }
 
 
@@ -368,10 +376,11 @@ grid-area: p3;
 display: flex;
 align-items: center;
 justify-content: center;
-border: 1px black solid;
+
 width: 450px;
 height: 200px;
 grid-area: p4;
+box-shadow: 7px 7px 13px grey;
 }
 
 #piz{
@@ -396,6 +405,7 @@ height: 250px;
 }
 
 #spec{
+position: relative;
 width: 450px;
 height: 200px;
 }
@@ -415,3 +425,32 @@ height: 200px;
     width: 450px;
     height: 200px;
     }
+
+
+#sp{
+    position: absolute;
+    color: white;
+    font-size: 2em;
+    text-shadow: 2px 2px 4px black;
+}
+
+#sp2{
+    position: absolute;
+    color: white;
+    font-size: 2em;
+    text-shadow: 2px 2px 4px black;
+}
+
+#sp3{
+    position: absolute;
+    color: white;
+    font-size: 2em;
+    text-shadow: 2px 2px 4px black;
+}
+
+#sp4{
+    position: absolute;
+    color: white;
+    font-size: 2em;
+    text-shadow: 2px 2px 4px black;
+}
